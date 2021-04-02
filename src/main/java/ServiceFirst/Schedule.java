@@ -6,10 +6,13 @@ import java.io.Serializable;
 import java.util.TreeSet;
 
 public class Schedule implements Serializable {
+    TreeSet<Ship> schedule;
+
     public Schedule() {
-        ScheduleGenerator generator = new ScheduleGenerator();
-        generator.generateSchedule();
-        schedule = generator.getSchedule();
+    }
+
+    public Schedule(TreeSet<Ship> schedule) {
+        this.schedule = schedule;
     }
 
     public void printSchedule() {
@@ -19,9 +22,12 @@ public class Schedule implements Serializable {
         }
     }
 
-    public TreeSet<Ship> getSchedule() {
-        return schedule;
+    public void setSchedule(TreeSet<Ship> schedule) {
+        this.schedule = schedule;
     }
 
-    TreeSet<Ship> schedule;
+    public TreeSet<Ship> getSchedule() {
+
+        return schedule;
+    }
 }

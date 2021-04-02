@@ -1,24 +1,37 @@
 package ServiceThird;
 
+import ServiceFirst.Schedule;
 import ServiceFirst.Ship.Ship;
+import ServiceFirst.Ship.ShipComparator;
 
 import java.util.Random;
 import java.util.TreeSet;
 
 public class DeviationGenerator {
-    private Random random;
+    private final Random random;
+
+    Schedule deviationSchedule;
+
+    public Schedule getDeviationSchedule() {
+        return deviationSchedule;
+    }
 
     public DeviationGenerator() {
         this.random = new Random();
+        this.deviationSchedule = new Schedule();
     }
 
-    public void generateDeviation(TreeSet<Ship> schedule) {
-        for (Ship i : schedule) {
-            int MAXDEVIATIONOFDAY = 7;
-            int MINDEVIATIONOFDAY = -7;
-            i.setDay(i.getDay() + random.nextInt(MAXDEVIATIONOFDAY - MINDEVIATIONOFDAY + 1) - 7);
-            int MAXDEVIATIONOFUPLOADINGTIME = 1440;
-            i.setTime(i.getTime() + random.nextInt(MAXDEVIATIONOFUPLOADINGTIME));
+    public void generateDeviation(Schedule schedule) {
+        TreeSet<Ship> newSchedule = new TreeSet<>(new ShipComparator());
+        for (Ship i : schedule.getSchedule()) {
+            Ship ship = new Ship(i);
+            int maxDeviationOfDay = 7;
+            int minDeviationOfDay = -7;
+            ship.setDay(i.getDay() + random.nextInt(maxDeviationOfDay - minDeviationOfDay + 1) - 7);
+            int maxDeviationOnUploadingTime = 1440;
+            ship.setTime(i.getTime() + random.nextInt(maxDeviationOnUploadingTime));
+            newSchedule.add(ship);
         }
+        deviationSchedule.setSchedule(newSchedule);
     }
 }
