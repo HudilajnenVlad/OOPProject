@@ -28,16 +28,24 @@ public class Ship implements Serializable {
         this.time = time;
     }
 
+    public Ship(Ship ship) {
+        this.name = ship.getName();
+        this.day = ship.getDay();
+        this.hours = ship.getHours();
+        this.minutes = ship.getMinutes();
+        this.type = ship.getType();
+        this.weight = ship.getWeight();
+        this.time = ship.getTime();
+    }
+
     public String printShip() {
-        StringBuilder sb = new StringBuilder();
-        sb.append(name).append("\t");
-        sb.append((day < 10) ? '0' : "").append(day).append(':');
-        sb.append((hours < 10) ? '0' : "").append(hours).append(':');
-        sb.append((minutes < 10) ? '0' : "").append(minutes).append('\t');
-        sb.append(type).append("\t").append((type.equals(TypeOfShip.CONTAINER) ? "" : "\t"));
-        sb.append(weight).append("\t").append((weight < 1000) ? "\t" : "");
-        sb.append(time);
-        return sb.toString();
+        return name + "\t" +
+                ((day < 10) ? '0' : "") + day + ':' +
+                ((hours < 10) ? '0' : "") + hours + ':' +
+                ((minutes < 10) ? '0' : "") + minutes + '\t' +
+                type + "\t" + (type.equals(TypeOfShip.CONTAINER) ? "" : "\t") +
+                weight + "\t" + ((weight < 1000) ? "\t" : "") +
+                time;
     }
 
 }
