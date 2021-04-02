@@ -2,12 +2,8 @@ package main.java;
 
 import ServiceFirst.Schedule;
 import ServiceFirst.ScheduleGenerator;
-import ServiceSecond.Convertor;
 import ServiceThird.DeviationGenerator;
 import ServiceThird.Filter;
-
-import java.io.IOException;
-import java.util.Random;
 
 
 public class Main {

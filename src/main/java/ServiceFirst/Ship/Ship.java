@@ -3,11 +3,11 @@ package ServiceFirst.Ship;
 import lombok.Data;
 
 import java.io.Serializable;
+import java.util.concurrent.atomic.AtomicInteger;
 
 
 @Data
 public class Ship implements Serializable {
-
 
     String name;
     //Calendar date;
@@ -16,9 +16,10 @@ public class Ship implements Serializable {
     private int minutes;
     private TypeOfShip type;
     private int weight;
-    private double time;
+    private int time;
+    private int delay = 0;
 
-    public Ship(String name, int day, int hours, int minutes, TypeOfShip type, int weight, double time) {
+    public Ship(String name, int day, int hours, int minutes, TypeOfShip type, int weight, int time) {
         this.name = name;
         this.day = day;
         this.hours = hours;
@@ -36,6 +37,7 @@ public class Ship implements Serializable {
         this.type = ship.getType();
         this.weight = ship.getWeight();
         this.time = ship.getTime();
+        this.delay = getDelay();
     }
 
     public String printShip() {

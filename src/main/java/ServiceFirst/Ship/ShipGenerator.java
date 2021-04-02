@@ -2,6 +2,7 @@ package ServiceFirst.Ship;
 
 
 import java.util.Random;
+import java.util.concurrent.atomic.AtomicInteger;
 
 public class ShipGenerator {
     private final int BULKPERFOMANCE = 200;
@@ -30,20 +31,18 @@ public class ShipGenerator {
         int minutes = random.nextInt(COUNTOFMINUTES) + 1;
         TypeOfShip type = generateType();
         int weight = generateWeight(type);
-        double time = generateTimeOfUnloading(weight, type);
+        int time = generateTimeOfUnloading(weight, type);
         return new Ship(name, day, hours, minutes, type, weight, time);
     }
 
     private String generateName() {
         int min = 65;
         int diff = 26;
-        StringBuilder sb = new StringBuilder();
-        sb.append((char) (min + random.nextInt(diff)));
-        sb.append((char) (min + random.nextInt(diff)));
-        sb.append(random.nextInt(10));
-        sb.append(random.nextInt(10));
-        sb.append(random.nextInt(10));
-        return sb.toString();
+        return String.valueOf((char) (min + random.nextInt(diff))) +
+                (char) (min + random.nextInt(diff)) +
+                random.nextInt(10) +
+                random.nextInt(10) +
+                random.nextInt(10);
     }
 
     /*public Calendar generateDate() {
@@ -78,13 +77,13 @@ public class ShipGenerator {
         return 0;
     }
 
-    private double generateTimeOfUnloading(int weight, TypeOfShip type) {
+    private int generateTimeOfUnloading(int weight, TypeOfShip type) {
         if (type.equals(TypeOfShip.BULK)) {
-            return ((double) weight / BULKPERFOMANCE) * COUNTOFMINUTES + INTERMIDATETIME;
+            return (weight / BULKPERFOMANCE) * COUNTOFMINUTES + INTERMIDATETIME;
         } else if (type.equals(TypeOfShip.LIQUID)) {
-            return ((double)weight / LIQUIDKPERFOMANCE) * COUNTOFMINUTES + INTERMIDATETIME;
+            return (weight / LIQUIDKPERFOMANCE) * COUNTOFMINUTES + INTERMIDATETIME;
         } else if (type.equals(TypeOfShip.CONTAINER)) {
-            return ((double)weight / CONTAINERPERFOMANCE) * COUNTOFMINUTES + INTERMIDATETIME;
+            return (weight / CONTAINERPERFOMANCE) * COUNTOFMINUTES + INTERMIDATETIME;
         }
         return 0;
     }

@@ -29,7 +29,7 @@ public class DeviationGenerator {
             int minDeviationOfDay = -7;
             ship.setDay(i.getDay() + random.nextInt(maxDeviationOfDay - minDeviationOfDay + 1) - 7);
             int maxDeviationOnUploadingTime = 1440;
-            ship.setTime(i.getTime() + random.nextInt(maxDeviationOnUploadingTime));
+            ship.setDelay(random.nextInt(maxDeviationOnUploadingTime));
             newSchedule.add(ship);
         }
         deviationSchedule.setSchedule(newSchedule);
