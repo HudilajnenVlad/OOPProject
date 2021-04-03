@@ -1,12 +1,14 @@
 package ServiceFirst.Ship;
 
-import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.io.Serializable;
 import java.util.concurrent.atomic.AtomicInteger;
 
 
-@Data
+@Getter
+@Setter
 public class Ship implements Serializable {
 
     String name;
