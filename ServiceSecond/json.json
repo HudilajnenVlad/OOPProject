@@ -1,0 +1,1002 @@
+[
+  {
+    "name": "RA889",
+    "day": 1,
+    "hours": 6,
+    "minutes": 56,
+    "type": "BULK",
+    "weight": 85178,
+    "unloadingTime": 25500,
+    "delay": 0
+  },
+  {
+    "name": "KX430",
+    "day": 1,
+    "hours": 12,
+    "minutes": 5,
+    "type": "LIQUID",
+    "weight": 204934,
+    "unloadingTime": 61440,
+    "delay": 0
+  },
+  {
+    "name": "ZD154",
+    "day": 1,
+    "hours": 13,
+    "minutes": 41,
+    "type": "LIQUID",
+    "weight": 33093,
+    "unloadingTime": 9900,
+    "delay": 0
+  },
+  {
+    "name": "FN389",
+    "day": 1,
+    "hours": 20,
+    "minutes": 37,
+    "type": "CONTAINER",
+    "weight": 860,
+    "unloadingTime": 840,
+    "delay": 0
+  },
+  {
+    "name": "CW409",
+    "day": 2,
+    "hours": 1,
+    "minutes": 36,
+    "type": "BULK",
+    "weight": 123032,
+    "unloadingTime": 36900,
+    "delay": 0
+  },
+  {
+    "name": "OP061",
+    "day": 2,
+    "hours": 2,
+    "minutes": 28,
+    "type": "BULK",
+    "weight": 60531,
+    "unloadingTime": 18120,
+    "delay": 0
+  },
+  {
+    "name": "KQ924",
+    "day": 2,
+    "hours": 4,
+    "minutes": 57,
+    "type": "LIQUID",
+    "weight": 135034,
+    "unloadingTime": 40500,
+    "delay": 0
+  },
+  {
+    "name": "ZE403",
+    "day": 2,
+    "hours": 14,
+    "minutes": 28,
+    "type": "CONTAINER",
+    "weight": 2771,
+    "unloadingTime": 2760,
+    "delay": 0
+  },
+  {
+    "name": "MI832",
+    "day": 3,
+    "hours": 3,
+    "minutes": 42,
+    "type": "BULK",
+    "weight": 117992,
+    "unloadingTime": 35340,
+    "delay": 0
+  },
+  {
+    "name": "FV707",
+    "day": 3,
+    "hours": 18,
+    "minutes": 39,
+    "type": "LIQUID",
+    "weight": 107961,
+    "unloadingTime": 32340,
+    "delay": 0
+  },
+  {
+    "name": "OY804",
+    "day": 4,
+    "hours": 7,
+    "minutes": 12,
+    "type": "CONTAINER",
+    "weight": 363,
+    "unloadingTime": 360,
+    "delay": 0
+  },
+  {
+    "name": "EG606",
+    "day": 4,
+    "hours": 16,
+    "minutes": 38,
+    "type": "CONTAINER",
+    "weight": 1205,
+    "unloadingTime": 1200,
+    "delay": 0
+  },
+  {
+    "name": "SV121",
+    "day": 4,
+    "hours": 18,
+    "minutes": 20,
+    "type": "LIQUID",
+    "weight": 48743,
+    "unloadingTime": 14580,
+    "delay": 0
+  },
+  {
+    "name": "TT830",
+    "day": 5,
+    "hours": 20,
+    "minutes": 47,
+    "type": "BULK",
+    "weight": 141942,
+    "unloadingTime": 42540,
+    "delay": 0
+  },
+  {
+    "name": "TL179",
+    "day": 6,
+    "hours": 8,
+    "minutes": 26,
+    "type": "LIQUID",
+    "weight": 116847,
+    "unloadingTime": 35040,
+    "delay": 0
+  },
+  {
+    "name": "MH736",
+    "day": 6,
+    "hours": 12,
+    "minutes": 9,
+    "type": "CONTAINER",
+    "weight": 2866,
+    "unloadingTime": 2820,
+    "delay": 0
+  },
+  {
+    "name": "NB268",
+    "day": 6,
+    "hours": 15,
+    "minutes": 53,
+    "type": "LIQUID",
+    "weight": 36030,
+    "unloadingTime": 10800,
+    "delay": 0
+  },
+  {
+    "name": "XM195",
+    "day": 7,
+    "hours": 2,
+    "minutes": 35,
+    "type": "BULK",
+    "weight": 111714,
+    "unloadingTime": 33480,
+    "delay": 0
+  },
+  {
+    "name": "ZD035",
+    "day": 7,
+    "hours": 9,
+    "minutes": 52,
+    "type": "LIQUID",
+    "weight": 158016,
+    "unloadingTime": 47400,
+    "delay": 0
+  },
+  {
+    "name": "XC736",
+    "day": 7,
+    "hours": 10,
+    "minutes": 54,
+    "type": "LIQUID",
+    "weight": 23727,
+    "unloadingTime": 7080,
+    "delay": 0
+  },
+  {
+    "name": "ZL001",
+    "day": 7,
+    "hours": 11,
+    "minutes": 10,
+    "type": "LIQUID",
+    "weight": 144376,
+    "unloadingTime": 43260,
+    "delay": 0
+  },
+  {
+    "name": "EE756",
+    "day": 8,
+    "hours": 4,
+    "minutes": 30,
+    "type": "LIQUID",
+    "weight": 174981,
+    "unloadingTime": 52440,
+    "delay": 0
+  },
+  {
+    "name": "RY723",
+    "day": 8,
+    "hours": 12,
+    "minutes": 12,
+    "type": "BULK",
+    "weight": 157398,
+    "unloadingTime": 47160,
+    "delay": 0
+  },
+  {
+    "name": "SX180",
+    "day": 8,
+    "hours": 22,
+    "minutes": 36,
+    "type": "CONTAINER",
+    "weight": 1408,
+    "unloadingTime": 1380,
+    "delay": 0
+  },
+  {
+    "name": "VS540",
+    "day": 9,
+    "hours": 1,
+    "minutes": 32,
+    "type": "LIQUID",
+    "weight": 181673,
+    "unloadingTime": 54480,
+    "delay": 0
+  },
+  {
+    "name": "ZB538",
+    "day": 9,
+    "hours": 16,
+    "minutes": 34,
+    "type": "LIQUID",
+    "weight": 91845,
+    "unloadingTime": 27540,
+    "delay": 0
+  },
+  {
+    "name": "QY188",
+    "day": 9,
+    "hours": 18,
+    "minutes": 29,
+    "type": "CONTAINER",
+    "weight": 1791,
+    "unloadingTime": 1740,
+    "delay": 0
+  },
+  {
+    "name": "PC289",
+    "day": 9,
+    "hours": 23,
+    "minutes": 14,
+    "type": "CONTAINER",
+    "weight": 2353,
+    "unloadingTime": 2340,
+    "delay": 0
+  },
+  {
+    "name": "SR677",
+    "day": 10,
+    "hours": 5,
+    "minutes": 21,
+    "type": "CONTAINER",
+    "weight": 1682,
+    "unloadingTime": 1680,
+    "delay": 0
+  },
+  {
+    "name": "FP937",
+    "day": 10,
+    "hours": 12,
+    "minutes": 2,
+    "type": "LIQUID",
+    "weight": 41506,
+    "unloadingTime": 12420,
+    "delay": 0
+  },
+  {
+    "name": "ZS950",
+    "day": 10,
+    "hours": 14,
+    "minutes": 59,
+    "type": "CONTAINER",
+    "weight": 2789,
+    "unloadingTime": 2760,
+    "delay": 0
+  },
+  {
+    "name": "CU227",
+    "day": 10,
+    "hours": 19,
+    "minutes": 53,
+    "type": "LIQUID",
+    "weight": 49062,
+    "unloadingTime": 14700,
+    "delay": 0
+  },
+  {
+    "name": "RP745",
+    "day": 11,
+    "hours": 16,
+    "minutes": 12,
+    "type": "BULK",
+    "weight": 99625,
+    "unloadingTime": 29880,
+    "delay": 0
+  },
+  {
+    "name": "GS828",
+    "day": 11,
+    "hours": 19,
+    "minutes": 36,
+    "type": "LIQUID",
+    "weight": 189119,
+    "unloadingTime": 56700,
+    "delay": 0
+  },
+  {
+    "name": "WH465",
+    "day": 13,
+    "hours": 15,
+    "minutes": 53,
+    "type": "BULK",
+    "weight": 109869,
+    "unloadingTime": 32940,
+    "delay": 0
+  },
+  {
+    "name": "YH664",
+    "day": 14,
+    "hours": 3,
+    "minutes": 13,
+    "type": "CONTAINER",
+    "weight": 1833,
+    "unloadingTime": 1800,
+    "delay": 0
+  },
+  {
+    "name": "PI120",
+    "day": 14,
+    "hours": 4,
+    "minutes": 2,
+    "type": "LIQUID",
+    "weight": 94016,
+    "unloadingTime": 28200,
+    "delay": 0
+  },
+  {
+    "name": "CS796",
+    "day": 14,
+    "hours": 5,
+    "minutes": 48,
+    "type": "BULK",
+    "weight": 50819,
+    "unloadingTime": 15240,
+    "delay": 0
+  },
+  {
+    "name": "KQ929",
+    "day": 14,
+    "hours": 7,
+    "minutes": 60,
+    "type": "CONTAINER",
+    "weight": 1876,
+    "unloadingTime": 1860,
+    "delay": 0
+  },
+  {
+    "name": "XJ318",
+    "day": 14,
+    "hours": 15,
+    "minutes": 24,
+    "type": "LIQUID",
+    "weight": 108348,
+    "unloadingTime": 32460,
+    "delay": 0
+  },
+  {
+    "name": "RW519",
+    "day": 14,
+    "hours": 16,
+    "minutes": 46,
+    "type": "BULK",
+    "weight": 108360,
+    "unloadingTime": 32460,
+    "delay": 0
+  },
+  {
+    "name": "LF121",
+    "day": 14,
+    "hours": 20,
+    "minutes": 16,
+    "type": "LIQUID",
+    "weight": 115414,
+    "unloadingTime": 34620,
+    "delay": 0
+  },
+  {
+    "name": "XW457",
+    "day": 15,
+    "hours": 3,
+    "minutes": 50,
+    "type": "LIQUID",
+    "weight": 106987,
+    "unloadingTime": 32040,
+    "delay": 0
+  },
+  {
+    "name": "OS016",
+    "day": 15,
+    "hours": 18,
+    "minutes": 28,
+    "type": "CONTAINER",
+    "weight": 2060,
+    "unloadingTime": 2040,
+    "delay": 0
+  },
+  {
+    "name": "LX032",
+    "day": 15,
+    "hours": 19,
+    "minutes": 43,
+    "type": "CONTAINER",
+    "weight": 2045,
+    "unloadingTime": 2040,
+    "delay": 0
+  },
+  {
+    "name": "XJ426",
+    "day": 15,
+    "hours": 23,
+    "minutes": 6,
+    "type": "BULK",
+    "weight": 151444,
+    "unloadingTime": 45420,
+    "delay": 0
+  },
+  {
+    "name": "SO136",
+    "day": 16,
+    "hours": 11,
+    "minutes": 4,
+    "type": "LIQUID",
+    "weight": 93690,
+    "unloadingTime": 28080,
+    "delay": 0
+  },
+  {
+    "name": "KQ575",
+    "day": 16,
+    "hours": 13,
+    "minutes": 27,
+    "type": "CONTAINER",
+    "weight": 3467,
+    "unloadingTime": 3420,
+    "delay": 0
+  },
+  {
+    "name": "BU091",
+    "day": 16,
+    "hours": 15,
+    "minutes": 4,
+    "type": "LIQUID",
+    "weight": 226397,
+    "unloadingTime": 67860,
+    "delay": 0
+  },
+  {
+    "name": "NN162",
+    "day": 16,
+    "hours": 21,
+    "minutes": 20,
+    "type": "LIQUID",
+    "weight": 3978,
+    "unloadingTime": 1140,
+    "delay": 0
+  },
+  {
+    "name": "AE153",
+    "day": 17,
+    "hours": 3,
+    "minutes": 4,
+    "type": "BULK",
+    "weight": 2236,
+    "unloadingTime": 660,
+    "delay": 0
+  },
+  {
+    "name": "JN575",
+    "day": 17,
+    "hours": 17,
+    "minutes": 60,
+    "type": "BULK",
+    "weight": 87998,
+    "unloadingTime": 26340,
+    "delay": 0
+  },
+  {
+    "name": "AW829",
+    "day": 17,
+    "hours": 23,
+    "minutes": 4,
+    "type": "BULK",
+    "weight": 160609,
+    "unloadingTime": 48180,
+    "delay": 0
+  },
+  {
+    "name": "TK625",
+    "day": 18,
+    "hours": 7,
+    "minutes": 36,
+    "type": "BULK",
+    "weight": 32177,
+    "unloadingTime": 9600,
+    "delay": 0
+  },
+  {
+    "name": "KP322",
+    "day": 18,
+    "hours": 8,
+    "minutes": 33,
+    "type": "CONTAINER",
+    "weight": 1212,
+    "unloadingTime": 1200,
+    "delay": 0
+  },
+  {
+    "name": "BP947",
+    "day": 18,
+    "hours": 17,
+    "minutes": 43,
+    "type": "BULK",
+    "weight": 68969,
+    "unloadingTime": 20640,
+    "delay": 0
+  },
+  {
+    "name": "BC877",
+    "day": 19,
+    "hours": 4,
+    "minutes": 60,
+    "type": "CONTAINER",
+    "weight": 2245,
+    "unloadingTime": 2220,
+    "delay": 0
+  },
+  {
+    "name": "BN863",
+    "day": 19,
+    "hours": 9,
+    "minutes": 32,
+    "type": "BULK",
+    "weight": 105253,
+    "unloadingTime": 31560,
+    "delay": 0
+  },
+  {
+    "name": "VI289",
+    "day": 20,
+    "hours": 9,
+    "minutes": 20,
+    "type": "LIQUID",
+    "weight": 63329,
+    "unloadingTime": 18960,
+    "delay": 0
+  },
+  {
+    "name": "QD670",
+    "day": 20,
+    "hours": 9,
+    "minutes": 58,
+    "type": "LIQUID",
+    "weight": 12530,
+    "unloadingTime": 3720,
+    "delay": 0
+  },
+  {
+    "name": "MR447",
+    "day": 20,
+    "hours": 13,
+    "minutes": 24,
+    "type": "CONTAINER",
+    "weight": 3481,
+    "unloadingTime": 3480,
+    "delay": 0
+  },
+  {
+    "name": "DY243",
+    "day": 20,
+    "hours": 17,
+    "minutes": 30,
+    "type": "CONTAINER",
+    "weight": 3328,
+    "unloadingTime": 3300,
+    "delay": 0
+  },
+  {
+    "name": "JH260",
+    "day": 20,
+    "hours": 23,
+    "minutes": 35,
+    "type": "LIQUID",
+    "weight": 198651,
+    "unloadingTime": 59580,
+    "delay": 0
+  },
+  {
+    "name": "WG161",
+    "day": 21,
+    "hours": 5,
+    "minutes": 53,
+    "type": "CONTAINER",
+    "weight": 1641,
+    "unloadingTime": 1620,
+    "delay": 0
+  },
+  {
+    "name": "YX554",
+    "day": 21,
+    "hours": 6,
+    "minutes": 54,
+    "type": "CONTAINER",
+    "weight": 432,
+    "unloadingTime": 420,
+    "delay": 0
+  },
+  {
+    "name": "JD459",
+    "day": 21,
+    "hours": 12,
+    "minutes": 46,
+    "type": "BULK",
+    "weight": 151867,
+    "unloadingTime": 45540,
+    "delay": 0
+  },
+  {
+    "name": "BJ836",
+    "day": 21,
+    "hours": 13,
+    "minutes": 46,
+    "type": "LIQUID",
+    "weight": 48191,
+    "unloadingTime": 14400,
+    "delay": 0
+  },
+  {
+    "name": "DN279",
+    "day": 21,
+    "hours": 22,
+    "minutes": 9,
+    "type": "BULK",
+    "weight": 142561,
+    "unloadingTime": 42720,
+    "delay": 0
+  },
+  {
+    "name": "ND129",
+    "day": 22,
+    "hours": 1,
+    "minutes": 19,
+    "type": "LIQUID",
+    "weight": 183982,
+    "unloadingTime": 55140,
+    "delay": 0
+  },
+  {
+    "name": "XI760",
+    "day": 22,
+    "hours": 8,
+    "minutes": 32,
+    "type": "LIQUID",
+    "weight": 129193,
+    "unloadingTime": 38700,
+    "delay": 0
+  },
+  {
+    "name": "WP052",
+    "day": 22,
+    "hours": 16,
+    "minutes": 40,
+    "type": "LIQUID",
+    "weight": 200069,
+    "unloadingTime": 60000,
+    "delay": 0
+  },
+  {
+    "name": "YZ069",
+    "day": 22,
+    "hours": 18,
+    "minutes": 53,
+    "type": "LIQUID",
+    "weight": 33026,
+    "unloadingTime": 9900,
+    "delay": 0
+  },
+  {
+    "name": "KU391",
+    "day": 23,
+    "hours": 2,
+    "minutes": 5,
+    "type": "LIQUID",
+    "weight": 139782,
+    "unloadingTime": 41880,
+    "delay": 0
+  },
+  {
+    "name": "QH881",
+    "day": 23,
+    "hours": 23,
+    "minutes": 55,
+    "type": "LIQUID",
+    "weight": 85463,
+    "unloadingTime": 25620,
+    "delay": 0
+  },
+  {
+    "name": "PT306",
+    "day": 24,
+    "hours": 19,
+    "minutes": 41,
+    "type": "LIQUID",
+    "weight": 206512,
+    "unloadingTime": 61920,
+    "delay": 0
+  },
+  {
+    "name": "ZI011",
+    "day": 25,
+    "hours": 7,
+    "minutes": 57,
+    "type": "LIQUID",
+    "weight": 150003,
+    "unloadingTime": 45000,
+    "delay": 0
+  },
+  {
+    "name": "JG805",
+    "day": 25,
+    "hours": 19,
+    "minutes": 1,
+    "type": "LIQUID",
+    "weight": 101485,
+    "unloadingTime": 30420,
+    "delay": 0
+  },
+  {
+    "name": "QX731",
+    "day": 26,
+    "hours": 1,
+    "minutes": 42,
+    "type": "BULK",
+    "weight": 193982,
+    "unloadingTime": 58140,
+    "delay": 0
+  },
+  {
+    "name": "BY977",
+    "day": 26,
+    "hours": 11,
+    "minutes": 3,
+    "type": "CONTAINER",
+    "weight": 1254,
+    "unloadingTime": 1200,
+    "delay": 0
+  },
+  {
+    "name": "AJ121",
+    "day": 26,
+    "hours": 13,
+    "minutes": 44,
+    "type": "BULK",
+    "weight": 114204,
+    "unloadingTime": 34260,
+    "delay": 0
+  },
+  {
+    "name": "GP317",
+    "day": 26,
+    "hours": 20,
+    "minutes": 48,
+    "type": "LIQUID",
+    "weight": 71932,
+    "unloadingTime": 21540,
+    "delay": 0
+  },
+  {
+    "name": "NU088",
+    "day": 27,
+    "hours": 8,
+    "minutes": 41,
+    "type": "CONTAINER",
+    "weight": 649,
+    "unloadingTime": 600,
+    "delay": 0
+  },
+  {
+    "name": "XH931",
+    "day": 27,
+    "hours": 11,
+    "minutes": 49,
+    "type": "BULK",
+    "weight": 47404,
+    "unloadingTime": 14220,
+    "delay": 0
+  },
+  {
+    "name": "AR809",
+    "day": 27,
+    "hours": 12,
+    "minutes": 48,
+    "type": "LIQUID",
+    "weight": 26036,
+    "unloadingTime": 7800,
+    "delay": 0
+  },
+  {
+    "name": "QX663",
+    "day": 27,
+    "hours": 14,
+    "minutes": 43,
+    "type": "LIQUID",
+    "weight": 59171,
+    "unloadingTime": 17700,
+    "delay": 0
+  },
+  {
+    "name": "LY834",
+    "day": 27,
+    "hours": 15,
+    "minutes": 1,
+    "type": "CONTAINER",
+    "weight": 149,
+    "unloadingTime": 120,
+    "delay": 0
+  },
+  {
+    "name": "OO497",
+    "day": 27,
+    "hours": 18,
+    "minutes": 59,
+    "type": "CONTAINER",
+    "weight": 589,
+    "unloadingTime": 540,
+    "delay": 0
+  },
+  {
+    "name": "OR512",
+    "day": 28,
+    "hours": 8,
+    "minutes": 17,
+    "type": "BULK",
+    "weight": 178692,
+    "unloadingTime": 53580,
+    "delay": 0
+  },
+  {
+    "name": "YZ808",
+    "day": 28,
+    "hours": 16,
+    "minutes": 1,
+    "type": "BULK",
+    "weight": 26239,
+    "unloadingTime": 7860,
+    "delay": 0
+  },
+  {
+    "name": "FZ654",
+    "day": 28,
+    "hours": 20,
+    "minutes": 36,
+    "type": "CONTAINER",
+    "weight": 2070,
+    "unloadingTime": 2040,
+    "delay": 0
+  },
+  {
+    "name": "SF220",
+    "day": 28,
+    "hours": 23,
+    "minutes": 60,
+    "type": "CONTAINER",
+    "weight": 2061,
+    "unloadingTime": 2040,
+    "delay": 0
+  },
+  {
+    "name": "ZO218",
+    "day": 29,
+    "hours": 12,
+    "minutes": 47,
+    "type": "CONTAINER",
+    "weight": 2052,
+    "unloadingTime": 2040,
+    "delay": 0
+  },
+  {
+    "name": "UO900",
+    "day": 30,
+    "hours": 1,
+    "minutes": 60,
+    "type": "BULK",
+    "weight": 43071,
+    "unloadingTime": 12900,
+    "delay": 0
+  },
+  {
+    "name": "SE714",
+    "day": 30,
+    "hours": 2,
+    "minutes": 57,
+    "type": "BULK",
+    "weight": 186170,
+    "unloadingTime": 55800,
+    "delay": 0
+  },
+  {
+    "name": "GB102",
+    "day": 30,
+    "hours": 6,
+    "minutes": 55,
+    "type": "BULK",
+    "weight": 26664,
+    "unloadingTime": 7980,
+    "delay": 0
+  },
+  {
+    "name": "SL664",
+    "day": 30,
+    "hours": 11,
+    "minutes": 21,
+    "type": "LIQUID",
+    "weight": 167043,
+    "unloadingTime": 50100,
+    "delay": 0
+  },
+  {
+    "name": "JA372",
+    "day": 30,
+    "hours": 11,
+    "minutes": 50,
+    "type": "LIQUID",
+    "weight": 152061,
+    "unloadingTime": 45600,
+    "delay": 0
+  },
+  {
+    "name": "WK339",
+    "day": 30,
+    "hours": 15,
+    "minutes": 36,
+    "type": "LIQUID",
+    "weight": 39284,
+    "unloadingTime": 11760,
+    "delay": 0
+  },
+  {
+    "name": "HL868",
+    "day": 30,
+    "hours": 24,
+    "minutes": 3,
+    "type": "BULK",
+    "weight": 35307,
+    "unloadingTime": 10560,
+    "delay": 0
+  },
+  {
+    "name": "OX307",
+    "day": 30,
+    "hours": 24,
+    "minutes": 16,
+    "type": "BULK",
+    "weight": 53759,
+    "unloadingTime": 16080,
+    "delay": 0
+  }
+]
